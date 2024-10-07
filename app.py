@@ -1,6 +1,6 @@
 # Q&A Chatbot
 #from langchain.llms import OpenAI
-
+#HiBaby
 from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
@@ -9,6 +9,7 @@ import streamlit as st
 import os
 import pathlib
 import textwrap
+import matplotlib as plt
 
 import google.generativeai as genai
 
